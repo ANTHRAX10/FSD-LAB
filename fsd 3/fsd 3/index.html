@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>User Profile Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Dashboard</h2>
+    <ul>
+      <li class="active">Profile</li>
+      <li>Messages</li>
+      <li>Settings</li>
+      <li>Logout</li>
+    </ul>
+  </div>
+
+  <div class="main-content">
+    <header>
+      <input type="text" placeholder="Search..." class="search-box" />
+      <div class="user-info">
+        <img   src="https://i.pinimg.com/736x/6a/fc/5c/6afc5c43a5050054d7482202e3b75239.jpg" 
+  width="40" 
+  height="40"  alt="User" />
+        <span>akshatkolluru_</span>
+      </div>
+    </header>
+
+    <section class="profile-section">
+      <div class="cover-photo">
+        <img src="https://e7.pngegg.com/pngimages/748/758/png-clipart-dream-eater-merry-anime-cat-pleasantly-cool-mammal-cat-like-mammal.png" alt="Cover" />
+      </div>
+      <div class="profile-card">
+        <img class="profile-pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG3lfMOpNq0uh7wbVh3ER14gQdTt_ydu1zfQ&s" alt="Profile" />
+        <h2>Akshat Kolluru</h2>
+        <p>@akshatkolluru_</p>
+
+        <div class="stats">
+          <div><strong>20,160</strong><br>Followers</div>
+          <div><strong>478,888</strong><br>Following</div>
+          <div><strong>250</strong><br>Posts</div>
+        </div>
+
+        <h3>About Me</h3>
+        <p>Hello! I am currently a third-year undergraduate student at MIT World Peace University (MIT-WPU), where I am pursuing a BTech degree with a specialization in Computer Science and Engineering, focused on Cybersecurity.</p>
+        <h3>Skills And Projects</h3>
+        <p>Skilled in Python, Java, and C, along with security tools such as Wireshark, Metasploit, and Burp Suite.
+
+Experienced in network security, vulnerability assessment, and implementing secure software practices.
+
+Developed hands-on projects including intrusion detection systems, web application security modules, and simulated phishing awareness campaigns.</p>
+
+        <h3>Social Media Links</h3>
+        <ul class="social-links">
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">GitHub</a></li>
+        </ul>
+
+        <div class="post-section">
+          <h3>Recent Post</h3>
+          <textarea id="postText" placeholder="Write something..."></textarea>
+          <button onclick="addPost()">Post</button>
+          <ul id="postList"></ul>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
