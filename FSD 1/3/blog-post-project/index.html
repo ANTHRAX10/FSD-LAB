@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post</title>
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="post-title">Blog Post Title</h1>
+        <p class="post-author">By <strong>Akshat</strong> | <em>Published on Date</em></p>
+        <div class="post-content">
+            <p>Nature is the quiet rhythm that keeps our world alive — a gentle reminder that beauty exists in simplicity and balance.</p> 
+            <p>From the rustle of leaves to the calm flow of rivers, every part of nature teaches us patience, harmony, and renewal. It shows us that change is natural, that peace comes from slowing down, and that even in silence, life continues to grow and heal. 
+             <p>  In a world full of noise, nature is the calm whisper that tells us to breathe, to listen, and to simply be. 🌿</p>
+        </div>
+        
+        <h2 class="mt-5">Comments</h2>
+        <div class="comment-section">
+            <form id="commentForm">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="comment" class="form-label">Comment</label>
+                    <textarea class="form-control" id="comment" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit Comment</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

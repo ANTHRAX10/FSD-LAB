@@ -1,0 +1,44 @@
+/* Tag selector */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Class selectors */
+.product-title {
+  font-size: 1.8rem;
+  color: #212529;
+  font-weight: 600;
+}
+
+.product-desc {
+  color: #555;
+}
+
+.product-price {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.product-image {
+  transition: transform 0.3s ease;
+}
+
+.product-image:hover {
+  transform: scale(1.05);
+}
+
+/* ID selectors */
+#site-title {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+#add-to-cart {
+  background-color: #007bff;
+  border: none;
+}
+
+#add-to-cart:hover {
+  background-color: #0056b3;
+}
