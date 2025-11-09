@@ -1,0 +1,5 @@
+/* small extra page-level tweaks */
+.main-area{
+  padding: 28px 18px;
+  min-height: calc(100vh - 160px);
+}
