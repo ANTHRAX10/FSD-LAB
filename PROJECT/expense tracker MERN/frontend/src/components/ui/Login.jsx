@@ -59,7 +59,7 @@ function Login() {
                         onChange={changeHandler}
                         className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 transition" />
                 </div>
-                <Button className="w-full my-2 bg-blue-900 text-white font-semibold py-2 rounded-lg shadow hover:bg-blue-800 transition">
+                <Button type="submit" className="w-full my-2 bg-blue-900 text-white font-semibold py-2 rounded-lg shadow hover:bg-blue-800 transition">
                     Login
                 </Button>
                 <p className='text-sm text-center'>

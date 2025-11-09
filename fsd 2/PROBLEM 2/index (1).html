@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Manipulation and jQuery Demo</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <h2 id="mainTitle">Welcome to DOM Manipulation Demo</h2>
+
+    <!-- Paragraph Section -->
+    <p id="description" class="text">
+      This text will be changed using <b>innerHTML</b> and JavaScript DOM methods.
+    </p>
+
+    <!-- Image Section -->
+    <img id="demoImage" src="https://via.placeholder.com/200" alt="Demo Image" class="image">
+
+    <!-- Buttons for DOM Manipulation -->
+    <div class="button-group">
+      <button onclick="changeText()">Change Text</button>
+      <button onclick="changeStyle()">Change Style</button>
+      <button onclick="changeImage()">Change Image</button>
+      <button onclick="addNode()">Add Node</button>
+      <button onclick="deleteNode()">Delete Node</button>
+    </div>
+
+    <!-- Form Section -->
+    <form id="sampleForm" class="myForm">
+      <h3>Sample Form</h3>
+      <label fo
